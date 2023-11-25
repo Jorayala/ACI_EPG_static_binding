@@ -1,0 +1,9 @@
+epg,encap_id,ap,tenant,pod_id,leafs,interface_type,interface_ipg,interface_mode
+TEST-1_EPG,51,PROD_ANP,PROD,1,201-202,vpc,vPC_Ansible_thetechguy,tagged
+TEST-1_EPG,51,PROD_ANP,PROD,1,201,port_channel,PC_Ansible_thetechguy,tagged
+TEST-2_EPG,52,PROD_ANP,PROD,1,201-202,vpc,vPC_Ansible_thetechguy,tagged
+TEST-2_EPG,52,PROD_ANP,PROD,1,201,port_channel,PC_Ansible_thetechguy,tagged
+TEST-3_EPG,53,TEST_ANP,PROD,1,202,switch_port,1/19,untagged
+TEST-3_EPG,53,TEST_ANP,PROD,1,202,switch_port,1/20,untagged
+TEST-3_EPG,53,TEST_ANP,PROD,1,201-202,vpc,vPC_Ansible_thetechguy,tagged
+TEST-3_EPG,53,TEST_ANP,PROD,1,201,port_channel,PC_Ansible_thetechguy,tagged
